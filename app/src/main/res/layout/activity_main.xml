@@ -6,8 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity"
-    android:padding="16dp"
-    android:layout_margin="12dp">
+    android:padding="16dp">
 
     <TextView
         android:layout_width="match_parent"
@@ -15,10 +14,9 @@
         android:text="@string/panjang"/>
 
     <EditText
-        android:id="@+id/et_panjang"
+        android:id="@+id/et_length"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
         android:inputType="numberDecimal"
         android:lines="1"/>
 
@@ -28,10 +26,9 @@
         android:text="@string/lebar"/>
 
     <EditText
-        android:id="@+id/et_lebar"
+        android:id="@+id/et_width"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
         android:inputType="numberDecimal"
         android:lines="1"/>
 
@@ -41,27 +38,25 @@
         android:text="@string/tinggi"/>
 
     <EditText
-        android:id="@+id/et_tinggi"
+        android:id="@+id/et_height"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
         android:inputType="numberDecimal"
         android:lines="1"/>
 
     <Button
-        android:id="@+id/btn_hitung"
+        android:id="@+id/btn_calculate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/hitung"
-        android:layout_margin="8dp"/>
+        android:text="@string/hitung" />
 
 
     <TextView
-        android:id="@+id/tv_hasil"
+        android:id="@+id/tv_result"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/hasil"
-        android:textSize="20sp"
+        android:textSize="24sp"
         android:gravity="center"
         android:textStyle="bold"/>
 
