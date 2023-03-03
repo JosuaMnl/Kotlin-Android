@@ -7,6 +7,10 @@ android {
     namespace 'com.yosha10.barvolume'
     compileSdk 33
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId "com.yosha10.barvolume"
         minSdk 24
